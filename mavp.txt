@@ -1,0 +1,9 @@
+echo "Manuel Vargas"
+which git
+git config --list
+ls .gitconfig -al
+cd ~/.ssh
+ssh-keygen -t rsa -C localhost@debian
+ssh -T git@github.com
+Hi mavp! You've successfully authenticated, but GitHub does not provide shell access.
+history -w mavp.txt
